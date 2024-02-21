@@ -1,0 +1,41 @@
+.img{
+    width:1263px;
+    height: 400px;
+  }
+ h1{
+  text-align: center;
+  margin-top:-310px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:450%;
+ }
+ .container{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+ }kkk
+ .card{
+  margin-left: 10px;
+ }
+ a{
+  color: gray;
+ }
+ /* max-width:600px */
+  @media screen and (orientation:portrait){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        
+        }
+    .card-body p{
+      /* visibility: hidden; */
+      display: none;
+    }
+    .img{
+      width: 100%;
+    }
+    .card1{
+      margin: 10px;
+    }
+} 
